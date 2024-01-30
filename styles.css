@@ -9,11 +9,19 @@ body {
     /*border: solid red 2px;*/
 }
 
-.header {
-display: flex;
-justify-content: center;
-padding: 0px 90px;
-}
+.header, .one, .two, .three, .four, .footer {
+    padding: 0px 90px;
+    display: flex;
+    }
+
+.two {
+flex-direction: column;
+align-items: center;
+    }
+
+    .two-images {
+        display: flex;
+            }
 
 li {
     display: inline;
@@ -50,10 +58,11 @@ h2 {
     margin-bottom: 0;
 }
 
-.one {
-    display: flex;
-    padding: 0px 90px;
-    justify-content: space-between;
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937
+    margin-bottom: 0;
 }
 
 .one-left, .one-right {
