@@ -19,8 +19,16 @@ flex-direction: column;
 align-items: center;
     }
 
+.three {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
     .two-images {
         display: flex;
+        gap: 8px;
+        text-align: center;
             }
 
 li {
@@ -83,4 +91,27 @@ button {
     color:#E5E7EB;
     background-color: rgb(73, 73, 212);
     padding: 5px 20px;
+}
+
+img {
+    border: 2px solid blue;
+}
+
+.quote {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.attribute {
+    align-self: flex-end;
+    font-weight: bold;
 }
