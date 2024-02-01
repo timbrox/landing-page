@@ -69,7 +69,11 @@ h2 {
 h3 {
     font-size: 36px;
     font-weight: bold;
-    color: #1f2937
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+h4 {
     margin-bottom: 0;
 }
 
@@ -114,4 +118,22 @@ img {
 .attribute {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.four-card {
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    color: #E5E7EB;
+    margin: 40px;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+
+}
+
+.footer {
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
